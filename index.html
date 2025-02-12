@@ -1,0 +1,71 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    img {
+        height: 50px;
+        margin-left: -100px;
+        margin-top: -70px;
+    }
+
+    .page {
+        position: fixed;
+        background: whitesmoke;
+        padding: 50px;
+        font-family: sans-serif;
+        margin: 50px;
+        border-radius: 20px;
+    }
+
+    h1 {
+        margin: 10px;
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    input {
+        padding: 5px;
+        font-size: 18px;
+        width: 400px;
+        background: none;
+        border: none;
+        border-bottom: 3px solid black;
+        outline: 0;
+    }
+
+    button {
+        margin-top: 30px;
+        font-size: 18px;
+        border-radius: 10px;
+        padding: 10px;
+        width: 100px;
+    }
+</style>
+
+<body>
+    <div class="page">
+        <img src="https://www.gpsdozor.cz/www/resources/svg/logoImg.svg" alt="">
+        <form action="./1.php" method="post">
+            <h1>Login The Page</h1>
+            <h3>Login / Username</h3>
+            <input type="text" name="username">
+            <h3>Password</h3>
+            <input type="password" name="password">
+            <br>
+            <br>
+            <a href="" style="float: right;">Forget Password</a>
+            <br>
+            <button>Login</button>
+        </form>
+    </div>
+</body>
+
+</html>
